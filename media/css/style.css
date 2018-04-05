@@ -6,7 +6,7 @@ body,html{
 #particles-js{
   width: 100%;
   height: 100%;
-  background-color: #b61924;
+  background-color: #ffffff;
   background-image: url('');
   background-size: cover;
   background-position: 50% 50%;
@@ -20,7 +20,7 @@ body,html{
 #page-wrapper{
   position: relative;
   z-index: 2;
-  background-color: #b61924;
+  background-color: #ffffff;
   width: 50%;
   margin: 0 auto;
   padding: 25px;

@@ -1,17 +1,7 @@
-/* -----------------------------------------------
-/* Author : Vincent Garreau  - vincentgarreau.com
-/* MIT license: http://opensource.org/licenses/MIT
-/* Demo / Generator : vincentgarreau.com/particles.js
-/* GitHub : github.com/VincentGarreau/particles.js
-/* How to use? : Check the GitHub README
-/* v2.0.0
-/* ----------------------------------------------- */
-
 var pJS = function(tag_id, params){
 
   var canvas_el = document.querySelector('#'+tag_id+' > .particles-js-canvas-el');
 
-  /* particles.js variables with default values */
   this.pJS = {
     canvas: {
       el: canvas_el,
@@ -20,20 +10,20 @@ var pJS = function(tag_id, params){
     },
     particles: {
       number: {
-        value: 400,
+        value: 500,
         density: {
           enable: true,
           value_area: 800
         }
       },
       color: {
-        value: '#fff'
+        value: '#000000'
       },
       shape: {
         type: 'circle',
         stroke: {
           width: 0,
-          color: '#ff0000'
+          color: '#000000'
         },
         polygon: {
           nb_sides: 5
@@ -67,7 +57,7 @@ var pJS = function(tag_id, params){
       line_linked: {
         enable: true,
         distance: 100,
-        color: '#fff',
+        color: '#000000',
         opacity: 1,
         width: 1
       },
@@ -136,7 +126,6 @@ var pJS = function(tag_id, params){
 
   var pJS = this.pJS;
 
-  /* params settings */
   if(params){
     Object.deepExtend(pJS, params);
   }
